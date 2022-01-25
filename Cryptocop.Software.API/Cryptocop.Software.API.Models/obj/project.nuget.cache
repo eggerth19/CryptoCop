@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tVJ6pTlj7/+YG2GvSo7+QNmE2tjS5cOllpNc0zK2p0ox0Oqnsk6gk6Ajygx5uGdF4v/H33wzftTR/gxWwf2QWA==",
+  "success": true,
+  "projectFilePath": "D:\\Skóli 2019\\HR Haust 2020\\Vefþjónustur\\Verkefni\\Lokaverkefni\\CryptoCop\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eggert\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+{
+  "FilePath": "d:\\Skóli 2019\\HR Haust 2020\\Vefþjónustur\\Verkefni\\Lokaverkefni\\CryptoCop\\Cryptocop.Software.API\\Cryptocop.Software.API\\Cryptocop.Software.API.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "Cryptocop.Software.API",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

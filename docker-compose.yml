@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+    rabbitmq-container:
+        image: rabbitmq
+        container_name: rabbitmq-container
+        hostname: rabbitmq
+        networks:
+            - "cryptonetwork"
+    cryptocop-softwareapi:
+        build: ./Cryptocop.Software.API
+        container_name: cryptocop-softwareapi
+        ports:
+            - "5000:5000"
+        networks:
+            - "cryptonetwork"
+    cryptocop-emails:
+        build: ./cryptocop-emails
+        container_name: cryptocop-emails
+        restart: unless-stopped
+        networks:
+            - "cryptonetwork"
+    cryptocop-payments:
+        build: ./cryptocop-payments
+        container_name: cryptocop-payments
+        restart: unless-stopped
+        networks:
+            - "cryptonetwork"
+networks: 
+    cryptonetwork:
+        driver: bridge
